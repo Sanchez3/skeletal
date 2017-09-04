@@ -97,5 +97,3 @@ dragonbones  免费简单，但是在版本兼容方面会有小bug（规范操�
 
   > Egret是一个跨平台游戏框架，与JQuery等操作HTML标签的网页框架不是同一类型。Egret所有的代码都在一个Canvas区域内绘制呈现，并不操作任何HTML标签或CSS，所以不适用于网页开发。
 
-
-
