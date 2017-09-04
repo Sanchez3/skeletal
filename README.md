@@ -69,7 +69,7 @@ dragonbones  免费简单，但是在版本兼容方面会有小bug（规范操�
 
 ## 实例
 
-##Spine
+###Spine
 
 - [pixi](http://www.pixijs.com/) 使用 [pixi-spine](https://github.com/pixijs/pixi-spine) 插件，对于spine数据版本有严格要求
 
@@ -85,16 +85,17 @@ dragonbones  免费简单，但是在版本兼容方面会有小bug（规范操�
   Phaser所用基础框架就是pixi，所以使用的spine插件也是pixi的，但是年限久远，目前疏于维护更新。用户自行将pixi-spine插件引入至phaser中使用。
 
 
-
-##DragonBones
+###DragonBones
 
 [DragonBones](https://github.com/DragonBones/DragonBonesJS) 官方插件 支持[Egret白鹭](http://developer.egret.com/cn/) 和 Pixi。
 
-至于 phaser github也有原生插件代用，或者引入dragonbones支持pixi的插件，eg. [phaser-dragonbones](https://github.com/raksa/phaser-dragonbones), etc.
+- 至于 phaser github也有原生插件代用，或者引入dragonbones支持pixi的插件，eg. [phaser-dragonbones](https://github.com/raksa/phaser-dragonbones), etc.
 
-DragonBones本来就是白鹭引擎的一部分，所以开发起来更为便捷吗，无缝连接，但是白鹭又是一条开发流程。
 
-> Egret是一个跨平台游戏框架，与JQuery等操作HTML标签的网页框架不是同一类型。Egret所有的代码都在一个Canvas区域内绘制呈现，并不操作任何HTML标签或CSS，所以不适用于网页开发。
+
+- DragonBones本来就是白鹭引擎的一部分，所以开发起来更为便捷吗，无缝连接，但是白鹭又是一条开发流程。
+
+  > Egret是一个跨平台游戏框架，与JQuery等操作HTML标签的网页框架不是同一类型。Egret所有的代码都在一个Canvas区域内绘制呈现，并不操作任何HTML标签或CSS，所以不适用于网页开发。
 
 
 
