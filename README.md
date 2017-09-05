@@ -90,6 +90,8 @@ dragonbones  免费简单，但是在版本兼容方面会有小bug（规范操�
 [DragonBones](https://github.com/DragonBones/DragonBonesJS) 官方插件 支持[Egret白鹭](http://developer.egret.com/cn/) 和 Pixi。
 
 - 至于 phaser github也有原生插件代用，或者引入dragonbones支持pixi的插件，eg. [phaser-dragonbones](https://github.com/raksa/phaser-dragonbones), etc.
+  - 关于phaser-dragonbones 这个原生插件，目前使用的dragonbones.js不是官网所提供的最新js插件，所要求dragonbones导出数据版本4.5。
+    dragonbones所导出的一部分数据Sheep，Rooster的动画，phaser并不能很好的兼容，缺失部分图形。(原因待查)
 
 
 
