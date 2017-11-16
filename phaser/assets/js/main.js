@@ -3,6 +3,7 @@
  */
 'use strict';
 
+
 window.h5 = {
     initPhaser: function() {
         //缺失了部分图案
@@ -20,7 +21,7 @@ window.h5 = {
             },
             create: function() {
                 console.log(1)
-                this.add.text(this.world.centerX, 50, 'Phaser Skeletal Animation\nClick Click Click', { fill: '#fff', font: '30px Arial',align:'center' }).anchor.setTo(0.5);
+                this.add.text(this.world.centerX, 50, 'Phaser Skeletal Animation\nClick Click Click', { fill: '#fff', font: '30px Arial', align: 'center' }).anchor.setTo(0.5);
                 sprite = this.dragonBonesPlugin.getArmature('SwordsMan');
                 sprite.position.setTo(200, this.game.height - 100);
                 sprite.scale.setTo(0.5);
@@ -42,7 +43,10 @@ window.h5 = {
         });
     }
 };
-window.h5.initPhaser();
+window.onload = function() {
+    window.h5.initPhaser();
+};
+
 
 
 function showStats() {
