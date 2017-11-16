@@ -69,7 +69,7 @@ dragonbones  免费简单，但是在版本兼容方面会有小bug（规范操�
 
 ## 实例
 
-###Spine
+### Spine
 
 - [pixi](http://www.pixijs.com/) 使用 [pixi-spine](https://github.com/pixijs/pixi-spine) 插件，对于spine数据版本有严格要求
 
@@ -85,7 +85,7 @@ dragonbones  免费简单，但是在版本兼容方面会有小bug（规范操�
   Phaser所用基础框架就是pixi，所以使用的spine插件也是pixi的，但是年限久远，目前疏于维护更新。用户自行将pixi-spine插件引入至phaser中使用。
 
 
-###DragonBones
+### DragonBones
 
 [DragonBones](https://github.com/DragonBones/DragonBonesJS) 官方插件 支持[Egret白鹭](http://developer.egret.com/cn/) 和 Pixi。
 
